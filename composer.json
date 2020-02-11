@@ -2,7 +2,7 @@
     "name": "nanissa/passport-multiauth",
     "description": "Implementing Laravel MultiAuth using laravel passport",
     "require": {
-        "laravel/passport": "^8.2",
+        "laravel/passport": "^7.4",
         "calebporzio/parental": "^0.9.1"
     },
     "license": "MIT",
