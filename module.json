@@ -1,0 +1,13 @@
+{
+    "name": "PassportMultiAuth",
+    "alias": "passportmultiauth",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Nanissa\\PassportMultiAuth\\Providers\\PassportMultiAuthServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

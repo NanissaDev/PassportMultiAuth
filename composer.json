@@ -1,0 +1,33 @@
+{
+    "name": "nanissa/passport-multiauth",
+    "description": "Implementing Laravel MultiAuth using laravel passport",
+    "require": {
+        "laravel/passport": "^8.2",
+        "calebporzio/parental": "^0.9.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Issah Bin Mohammed",
+            "email": "ibmohammed@nanissa.com",
+            "homepage": "http://nanissa.com",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nanissa\\PassportMultiAuth\\Providers\\PassportMultiAuthServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Nanissa\\PassportMultiAuth\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}
