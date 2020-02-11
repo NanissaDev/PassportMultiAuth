@@ -3,7 +3,8 @@
     "description": "Implementing Laravel MultiAuth using laravel passport",
     "require": {
         "laravel/passport": "^7.0",
-        "calebporzio/parental": "^0.9.1"
+        "calebporzio/parental": "^0.9.1",
+        "nwidart/laravel-modules": "^6.0"
     },
     "license": "MIT",
     "authors": [
